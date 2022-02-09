@@ -1,0 +1,31 @@
+@import url('../../styles/utlity.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}  
+
+.sm{
+    width: 30px;
+    height: 30px;
+}
+
+.md{
+    width: 40px;
+    height: 40px;
+}
+
+.lg{
+    width: 50px;
+    height: 50px;
+}
+
+.square{
+    border-radius: 0%;
+}
+
+
