@@ -48,3 +48,9 @@
     margin-bottom: 1rem;
 }
 
+.divider{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 2rem;
+    background-color: #a6a8bdf3;
+}
