@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    font-family: 'Supermercado One', cursive;
+    flex: 0 0 240px;
+    margin-right: 1rem;
+    background-color: #fff;
+}
