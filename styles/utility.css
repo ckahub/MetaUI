@@ -1,0 +1,49 @@
+.doc_Container{
+    font-family: sans-serif;
+    width:100%;
+    margin: 50px auto 0;
+    display: flex;
+    padding: 0 1rem;
+}
+
+.doc_Content{
+    min-width: 0;
+    margin: 0px auto;
+    max-width: 800px;
+    flex:1 1 0%;
+}
+
+.content_Title{
+    font-family:Arial, Helvetica, sans-serif;
+    color:cornflowerblue;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.content_Subtitle{
+    font-family:sans-serif;
+    line-height: 25px;
+    color :rgb(6, 7, 7);
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.content_Subtitle a{
+    color: var(--primary-color);
+    transition: all .3s ease-in-out;
+}
+
+.content_Subtitle a:hover{
+     color : var(--primary-hover);
+}
+
+.content_Head{
+    font-family:Arial, Helvetica, sans-serif;
+    color : cornflowerblue;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
