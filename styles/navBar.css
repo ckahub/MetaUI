@@ -30,36 +30,36 @@ nav{
     align-items: strech;
 }
 
-.left-nav{
+.left_Nav{
     font-size: 1.2rem;
     font-weight: 900;
 }
 
-.left-nav a{
+.left_Nav a{
     color : rgb(48, 46, 46);
     text-decoration: none;
 }
 
-.small-text{
+.small_Text{
     color :rgb(90, 90, 90);
     font-size: .8rem;
     font-weight: 400;
 }
 
-.right-nav{
+.right_Nav{
     display: flex;
    margin-left: auto;
     justify-content: space-evenly;
 
 }
 
-.right-nav li{
+.right_Nav li{
     margin:  1rem;
     list-style: none;
     flex-direction: row-reverse;
 }
 
-.right-nav a{
+.right_Nav a{
     font-weight: 800;
     color: rgb(90, 90, 90);
     text-decoration: none;
@@ -68,6 +68,6 @@ nav{
    
 }
 
-.right-nav a:hover{
+.right_Nav a:hover{
     color: rgb(58, 218, 247);
 }
