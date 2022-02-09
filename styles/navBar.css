@@ -20,6 +20,7 @@ body{
     min-height: 100vh;
     height: max-content;
     margin: auto;
+    font-family: 'Supermercado One', cursive;
 }
 
 nav{
@@ -56,7 +57,7 @@ nav{
 .right_Nav li{
     margin:  1rem;
     list-style: none;
-    flex-direction: row-reverse;
+   
 }
 
 .right_Nav a{
