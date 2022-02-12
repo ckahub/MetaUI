@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar Component</title>
+    <link rel="stylesheet" href="avatar.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
+</head>
+<body>
+    
+   
+    <div class="container">
+
+        <!-- Navbar , we can add mor in ul at right navbar -->
+
+        <nav>
+            <div class="left_Nav">
+                <a href="#">Meta</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right_Nav">
+                <li><a class="active" href="#">Docs</a></li>   
+            </ul>
+            <ul class="right_Nav">
+                <li><a class="active" href="#">Example</a></li>   
+            </ul>
+        </nav>
+
+
+
+        <!-- Sidebar , list of all the component -->
+        <div class="doc_Contianer">
+            <div class="sidebar">
+
+
+        <!-- Get Started List Start -->
+
+                <div class="list_Topic">
+                    <a href="../Avatar/avatar.html">Components</a>
+                </div>
+                <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="../Avatar/avatar.html">
+                        Avatar
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Alert/alert.html">
+                        Alert
+                         </a>
+                    </li>
+                 </ul>
+            </div>
+    </div>
+
+
+    <div class="doc_Content">
+        <div class="content_Title">
+        Avatar
+        </div>
+        <div class="content_Subtitle">
+        Avatars are user profile pictures, usually found in circular or sqaure shapes. Avatars can be used for 'container' objects e-commerce,social media, and many other apps — to give them personalize approach tom user.
+        </div>
+        <div class="divider"></div>
+
+        <!-- PROFILE AVATAR -->
+
+        <div class="content_Head">
+        Profile Avatar
+        </div>
+        <div class="content_Subtitle">
+        Profile Avatars can be created using the class 'avatar', inside the <code>img</code> tag.
+        </div>
+        <div class="example_Div">
+            <img class="avatar" src="../../assests/Avatar0.jpg" alt="avatar0">
+            <img class="avatar" src="../../assests/Avatar1.jpg" alt="avatar1">
+            <img class="avatar" src="../../assests/Avatar5.jpg" alt="Avatar5">
+            <img class="avatar" src="https://i.pravatar.cc/300" alt="Avatar using url" />
+        </div>
+        <div class="example_Code">
+            <pre>
+                <code class="language-html">
+                    &lt;img class="avatar" src="../../assests/Avatar1.jpg" alt="avatar1" &gt;
+                    &lt;img class="avatar" src="https://unsplash.com/photos/jzz_3jWMzHA" alt="avatar1" &gt;
+                </code>
+            </pre>
+        </div>
+        <div class="divider"></div>
+
+        <!-- Avtar with different sizes -->
+        <div class="content_Head">
+            Avatar Sizes
+        </div>
+        <div class="content_Subtitle">
+            Size of the avatars can be changed by adding <code>sm | md | lg</code> class to the existing avatar class.
+        </div>
+        <div class="example_Div">
+            <img class="avatar sm" src="../../assests/Avatar0.jpg" alt="Avatar0">
+            <img class="avatar md" src="../../assests/Avatar1.jpg" alt="Avatar1">
+            <img class="avatar lg" src="../../assests/Avatar5.jpg" alt="Avatar5">
+        </div>
+        <div class="example_Code">
+            <pre>
+                <code class="html">
+                    Using the sm | md | lg class names
+
+                     &lt;img class="avatar sm" src="https://url-of-the-image" alt="Avatar0"&gt;
+                     &lt;img class="avatar lg" src="https://url-of-the-image" alt="Avatar1"&gt;
+                     &lt;img class="avatar md" src="https://url-of-the-image"&gt;
+                </code>
+            </pre>
+        </div>
+        <div class="divider"></div>
+
+        <!----Sqaure Avatar---->
+        <div class="content_Head">
+            Square Avatar
+        </div>
+        <div class="Content_Subtitle">
+            Adding class 'square' to existing class will generate sqaure shaped avatar.<br/>
+        </div>
+        <div class="example_Div">
+            <img class="avatar square sm" src="../../assests/Avatar0.jpg" alt="Avatar0">
+            <img class="avatar square md" src="../../assests/Avatar1.jpg" alt="Avatar1">
+            <img class="avatar square lg" src="../../assests/Avatar5.jpg" alt="Avatar5">                    
+        </div>
+        <div class="example_Code">
+            <pre>
+                <code class="html">
+                    Using the square class 
+                     &lt;img class="avatar square sm" src="https://url-of-the-image" alt="Avatar0"&gt;
+                     &lt;img class="avatar square md" src="https://url-of-the-image" alt="Avatar1"&gt;
+                     &lt;img class="avatar square lg" src="https://url-of-the-image" alt="Avatar5"&gt;
+                </code>
+            </pre>
+        </div>
+        <div class="divider"></div>
+    </div>
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+</body>
+</html>

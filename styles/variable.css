@@ -1,6 +1,7 @@
 /*  color used in component library  */
                 
-:root{                   
+:root{              
+
     --primary-color : #6366F1;
     --default-color : #172B4D;
     --secondary-color : #F3F4F6;

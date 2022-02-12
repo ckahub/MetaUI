@@ -11,7 +11,7 @@ body{
 .doc_Container{
     font-family: sans-serif;
     width:100%;
-    margin: 4rem auto 0;
+    margin: 3rem auto 0;
     display: flex;
     padding: 0 1rem;
 }
@@ -20,7 +20,8 @@ body{
     min-width: 0;
     margin: 0px auto;
     max-width: 800px;
-    flex:1 1 100%;
+    flex:1 1 0%;
+
 }
 
 .content_Title{
@@ -34,7 +35,7 @@ body{
 .content_Subtitle{
     font-family:sans-serif;
     line-height: 25px;
-    color :black;
+    color :black;   
     margin-bottom: 2rem;
     font-size: 1rem;
     font-weight: 400;
@@ -72,3 +73,11 @@ body{
     margin-bottom: 1rem ;
     flex-wrap: wrap;
 }
+
+.divider{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 2rem;
+    background-color: #a6a8bdf3;
+}
+
