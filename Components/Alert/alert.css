@@ -28,3 +28,32 @@
 .warning{
     background-color: var(--warning-color);
 }
+
+/* 
+<!---outline alert---> */
+
+.outline_Primary{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--off-white);
+}
+
+.outline_Error{
+    border: 1px solid var(--danger-color);
+    color: var(--danger-color);
+    background-color: var(--off-white);
+}
+
+.outline_Success{
+    border: 1px solid var(--success-color);
+    color: var(--success-color);
+    background-color: var(--off-white);
+}
+
+.outline_Warning{
+    border: 1px solid var(--warning-color);
+    color: var(--warning-color);
+    background-color: var(--off-white);
+}
+
+
