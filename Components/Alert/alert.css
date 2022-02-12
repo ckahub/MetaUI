@@ -2,3 +2,29 @@
 @import url('../../styles/navBar.css');
 @import url('../../styles/sideBar.css');
 @import url('../../styles/variable.css');
+
+.alert{
+    width:80%;
+    color: var(--off-white);
+    border-radius: 0.4rem;
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.primary{
+    background-color: var(--primary-color);
+}
+
+.error{
+    background-color: var(--danger-color);
+}
+
+.success{
+    background-color: var(--success-color);
+}
+
+.warning{
+    background-color: var(--warning-color);
+}

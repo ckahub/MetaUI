@@ -7,12 +7,6 @@
  
 }
 
-body{
-    width: 100%;
-    min-height: 100vh;
-    height: max-content;
-    font-family: 'Supermercado One', cursive;
-}
 
 
 .container{
@@ -28,6 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: strech;
+    font-family: 'Supermercado One', cursive;
 }
 
 .left_Nav{
