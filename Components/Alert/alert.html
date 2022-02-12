@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alert Component</title>
+        <link rel="stylesheet" href="./alert.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
+</head>
+<body>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <div class="container">
+        <!-- Navbar , we can add mor in ul at right navbar -->
+
+        <nav>
+            <div class="left_Nav">
+                <a href="#">Meta </a>
+                <span class="small_Text">v1.0</span>
+            </div>
+
+            <ul class="right_Nav">
+                <li><a href="../../Components/avtar.html">Docs</a></li>
+                <li><a href="#">Use-case</li>
+          </ul>
+        </nav>
+
+
+        <!-- Sidebar , list of all the component -->
+        <div class="doc_Container">
+            <div class="sidebar">
+                <div class="list_Topic">
+                    <a href="../../Components/Avatar/avatar.html">Components</a>
+                </div>
+                <ul class="sub_Topic">
+                    <li>
+                        <a class="active" href="../../Components/Avatar/avatar.html">
+                            Avatar
+                        </a>   
+                    </li>
+                    <li>
+                        <a class="active" href="./alert.html">
+                            Alert
+                        </a>   
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!---Alert Component--->
+        <div class="doc_Content">
+            <div class="content_Title">
+                Alert
+            </div>
+            <div class="content_Subtitle">
+            An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
+            </div>  
+
+        <!---Simple Alert--->
+            <div class="content_Head">
+                Simple Alert
+            </div>
+            <div class="content_Subtitle">
+                Simple Aletrs can be created by using <code> alert</code>class ,followed by <code>variant</code> name.
+            </div>
+
+        <!---Different Alert--->
+
+            <div class="example_Div alert_Box">
+                <div class="primary alert">
+                    <strong>Primary!</strong>This an Primary Alert! check it out
+                </div>
+                <div class="alert error">
+                    <strong>Error!!</strong>This an Error Alert! check it out
+                </div>
+                <div class="alert success">
+                    <strong>Success!</strong>This an Success Alert! check it out
+                </div>
+                <div class="alert warning">
+                    <strong>Warning!</strong>This an Warning Alert! check it out
+                </div>
+            </div>
+
+
+            <!-- Code display for alert class followed by the variant name -->
+            <div class="example_Code">
+                <pre>
+                    <code class="html">
+                        &lt;strong&gt; Primary! &lt;/strong&gt;This is an primary Alert! check it out.
+                        &lt;strong&gt; Error! &lt;/strong&gt;This is an error Alert! check it out.
+                        &lt;strong&gt; success! &lt;/strong&gt;This is an success Alert! check it out.
+                        &lt;strong&gt; Warning! &lt;/strong&gt;This is an warning Alert! check it out.                       
+                    </code>
+                </pre>
+            </div>
+            <div class="divider">
+            
+            
+            <div class="content_Head">
+                Outline Alert
+            </div>
+            <div class="content_Subtitle">
+                Outline alerts are created by using <code>alert</code> class, followed by <code>outline-variant</code>.
+            </div>
+            <div class="example_Div alert_Box">
+                <div class="alert outline_Primary">
+                    <strong>Primary!</strong>This an Primary Alert! check it out
+                </div>
+                <div class="alert outline_Error">
+                    <strong>Error!!</strong>This an Error Alert! check it out
+                </div>
+                <div class="alert outline_Success">
+                    <strong>Success!</strong>This an Success Alert! check it out
+                </div>
+                <div class="alert outline_Warning">
+                    <strong>Warning!</strong>This an Warning Alert! check it out
+                </div>
+            </div>
+
+
+
+            <!-- Using the alert class, followed by the outline-(variant) -->
+
+            <div class="example-code">
+                <pre>
+                    <code class="html">                
+                      &lt;div class="alert outline_Primary"&gt;
+                         &lt;strong&gt;Primary!&lt;/strong&gt;This is an Primary Alert! check it out.
+                      &lt;/div&gt;
+                      &lt;div class="alert outline_Error"&gt;
+                         &lt;strong&gt;Error!&lt;/strong&gt; This is an Error Alert! check it out.
+                      &lt;/div&gt;
+                    &lt;div class="alert outline_success"&gt;
+                         &lt;strong&gt;Success!&lt;/strong&gt;This is an Success Alert! check it out. 
+                     &lt;/div&gt;
+                     &lt;div class="alert outline_warning"&gt;
+                         &lt;strong&gt;Warning!&lt;/strong&gt;This is an Warning Alert! check it out.
+                     &lt;/div&gt;
+                    </code></pre>
+            </div>
+            <div class="divider"></div>
+
+
+            <div class="content_Head">
+                Alert With Icons
+            </div>
+            <div class="content_Subtitle">
+                Aletrs with Icons can be created by using Material Icons using <span> Icon </span>and <code> alert</code>class ,followed by <code>variant</code> name.
+            </div>
+
+            <!-- Alerts with icons -->
+            
+            <div class="example_Div alert_Box">
+                <div class="primary alert">
+                    <i class="material-icons">fingerprint</i>
+                        <strong>Primary!</strong>This an Primary Alert! check it out
+                </div>
+                <div class="alert error">
+                    <span class="material-icons">error_outline</span>                 
+                        <strong>Error!!</strong>This an Error Alert! check it out                    
+                </div>
+                <div class="alert success">
+                    <span class="material-icons"> done_outline</span>
+                        <strong>Success!</strong>This an Success Alert! check it out
+                </div>
+                <div class="alert warning">
+                    <span class="material-icons">warning-amber</span>
+                    <strong>Warning!</strong>This an Warning Alert! check it out
+                </div>
+            </div>
+
+             <!-- Code display for alert class followed by the variant name -->
+            <div class="example_Code">
+                <pre>
+                    <code class="html">
+                        &lt;span class="material-icons"&gt;fingerprint&lt;/span&gt;
+                            &lt;strong&gt; Primary! &lt;/strong&gt;This is an primary Alert! check it out.
+                        &lt;span class="material-icons"&gt;error_outline&lt;/span&gt;    
+                            &lt;strong&gt; Error! &lt;/strong&gt;This is an error Alert! check it out.
+                        &lt;span class="material-icons"&gt;done_outline&lt;/span&gt; 
+                            &lt;strong&gt; success! &lt;/strong&gt;This is an success Alert! check it out.
+                        &lt;span class="material-icons"&gt;warning-amber&lt;/span&gt;
+                            &lt;strong&gt; Warning! &lt;/strong&gt;This is an warning Alert! check it out.                       
+                    </code>
+                </pre>
+            </div>
+            <div class="divider"></div>
+         
+        
+        </div>
+    </div>
+    
+</body>
+</html>

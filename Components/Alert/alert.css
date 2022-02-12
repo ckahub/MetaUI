@@ -1,0 +1,59 @@
+@import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+
+.alert{
+    width:80%;
+    color: var(--off-white);
+    border-radius: 0.4rem;
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.primary{
+    background-color: var(--primary-color);
+}
+
+.error{
+    background-color: var(--danger-color);
+}
+
+.success{
+    background-color: var(--success-color);
+}
+
+.warning{
+    background-color: var(--warning-color);
+}
+
+/* 
+<!---outline alert---> */
+
+.outline_Primary{
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--off-white);
+}
+
+.outline_Error{
+    border: 1px solid var(--danger-color);
+    color: var(--danger-color);
+    background-color: var(--off-white);
+}
+
+.outline_Success{
+    border: 1px solid var(--success-color);
+    color: var(--success-color);
+    background-color: var(--off-white);
+}
+
+.outline_Warning{
+    border: 1px solid var(--warning-color);
+    color: var(--warning-color);
+    background-color: var(--off-white);
+}
+
+

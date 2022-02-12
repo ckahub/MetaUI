@@ -7,6 +7,7 @@
  
 }
 
+
 body{
     width: 100%;
     min-height: 100vh;
@@ -15,12 +16,12 @@ body{
 }
 
 
+
 .container{
     width: 80%;
     min-height: 100vh;
     height: max-content;
     margin: auto;
-    font-family: 'Supermercado One', cursive;
 }
 
 nav{
@@ -29,6 +30,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: strech;
+    font-family: 'Supermercado One', cursive;
 }
 
 .left_Nav{
@@ -41,8 +43,9 @@ nav{
     text-decoration: none;
 }
 
-.small-text{
-    color :rgb(90, 90, 90);
+
+.small_Text{
+    color :black;
     font-size: .8rem;
     font-weight: 400;
 }
@@ -57,7 +60,6 @@ nav{
 .right_Nav li{
     margin:  1rem;
     list-style: none;
-   
 }
 
 .right_Nav a{
@@ -70,6 +72,5 @@ nav{
 }
 
 .right_Nav a:hover{
-    color: rgb(58, 218, 247);
+    color: cornflowerblue;
 }
-
