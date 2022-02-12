@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Alert Component</title>
-        <link rel="stylesheet" href="./alert.css" />
+        <link rel="stylesheet" href="alert.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
 </head>
@@ -44,7 +44,7 @@
                         </a>   
                     </li>
                     <li>
-                        <a class="active" href="./alert.html">
+                        <a class="active" href="../Alert/alert.html">
                             Alert
                         </a>   
                     </li>
@@ -92,10 +92,18 @@
             <div class="example_Code">
                 <pre>
                     <code class="html">
-                        &lt;strong&gt; Primary! &lt;/strong&gt;This is an primary Alert! check it out.
-                        &lt;strong&gt; Error! &lt;/strong&gt;This is an error Alert! check it out.
-                        &lt;strong&gt; success! &lt;/strong&gt;This is an success Alert! check it out.
-                        &lt;strong&gt; Warning! &lt;/strong&gt;This is an warning Alert! check it out.                       
+                        &lt;div class="alert primary"&gt;
+                            &lt;strong&gt; Primary! &lt;/strong&gt;This is an primary Alert! check it out.
+                        &lt;/div"&gt;
+                        &lt;div class="alert error"&gt;
+                            &lt;strong&gt; Error! &lt;/strong&gt;This is an error Alert! check it out.
+                        &lt;/div"&gt;
+                        &lt;div class="alert success"&gt;
+                            &lt;strong&gt; success! &lt;/strong&gt;This is an success Alert! check it out.
+                        &lt;/div"&gt;
+                        &lt;div class="alert warning"&gt;
+                            &lt;strong&gt; Warning! &lt;/strong&gt;This is an warning Alert! check it out.  
+                        &lt;/div"&gt;                     
                     </code>
                 </pre>
             </div>
@@ -158,7 +166,7 @@
             
             <div class="example_Div alert_Box">
                 <div class="primary alert">
-                    <i class="material-icons">fingerprint</i>
+                    <span class="material-icons">fingerprint</span>
                         <strong>Primary!</strong>This an Primary Alert! check it out
                 </div>
                 <div class="alert error">
@@ -170,8 +178,8 @@
                         <strong>Success!</strong>This an Success Alert! check it out
                 </div>
                 <div class="alert warning">
-                    <span class="material-icons">warning-amber</span>
-                    <strong>Warning!</strong>This an Warning Alert! check it out
+                    <span class="material-icons">warning_amber</span>
+                        <strong>Warning!</strong>This an Warning Alert! check it out
                 </div>
             </div>
 
@@ -179,14 +187,22 @@
             <div class="example_Code">
                 <pre>
                     <code class="html">
-                        &lt;span class="material-icons"&gt;fingerprint&lt;/span&gt;
-                            &lt;strong&gt; Primary! &lt;/strong&gt;This is an primary Alert! check it out.
-                        &lt;span class="material-icons"&gt;error_outline&lt;/span&gt;    
-                            &lt;strong&gt; Error! &lt;/strong&gt;This is an error Alert! check it out.
-                        &lt;span class="material-icons"&gt;done_outline&lt;/span&gt; 
-                            &lt;strong&gt; success! &lt;/strong&gt;This is an success Alert! check it out.
-                        &lt;span class="material-icons"&gt;warning-amber&lt;/span&gt;
-                            &lt;strong&gt; Warning! &lt;/strong&gt;This is an warning Alert! check it out.                       
+                        &lt;div class="alert primary"&gt;                        
+                            &lt;span class="material-icons"&gt;fingerprint&lt;/span&gt;
+                                &lt;strong&gt; Primary! &lt;/strong&gt;This is an primary Alert! check it out.
+                        &lt;/div&gt;
+                        &lt;div class="alert error"&gt;
+                            &lt;span class="material-icons"&gt;error_outline&lt;/span&gt;    
+                                &lt;strong&gt; Error! &lt;/strong&gt;This is an error Alert! check it out.
+                        &lt;/div&gt;
+                        &lt;div class="alert success"&gt;
+                            &lt;span class="material-icons"&gt;done_outline&lt;/span&gt; 
+                                &lt;strong&gt; success! &lt;/strong&gt;This is an success Alert! check it out.
+                        &lt;/div&gt;
+                        &lt;div class="alert warning"&gt;
+                            &lt;span class="material-icons"&gt;warning-amber&lt;/span&gt;
+                                &lt;strong&gt; Warning! &lt;/strong&gt;This is an warning Alert! check it out. 
+                        &lt;/div&gt;                      
                     </code>
                 </pre>
             </div>
