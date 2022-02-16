@@ -21,6 +21,7 @@ body{
     margin: 0px auto;
     max-width: 800px;
     flex:1 1 0%;
+    font-family:sans-serif;
 
 }
 
@@ -79,5 +80,9 @@ body{
     height: 1px;
     margin-bottom: 2rem;
     background-color: #a6a8bdf3;
+}
+
+.highlighted{
+    text-decoration-color: blue;
 }
 

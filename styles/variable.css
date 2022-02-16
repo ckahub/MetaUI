@@ -1,4 +1,9 @@
 /*  color used in component library  */
+ @import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+@import url('../Avatar/avatar.css'); 
                 
 :root{              
 
@@ -10,6 +15,7 @@
     --warning-color : #FF9800;
     --active-color : #1EA7FD;
     --off-white : #F6F9FC;
+    --dnd-color :grey;
 
     --primary-hover : #4F46E5;
     --secondary-hover: #E5E7EB;
