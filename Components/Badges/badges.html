@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Badges Component</title>
+        <link rel="stylesheet" href="badges.css" />
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
+</head>
+<body>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    <div class="container">
+        <!-- Navbar , we can add mor in ul at right navbar -->
+
+        <nav>
+            <div class="left_Nav">
+                <a href="#">Meta </a>
+                <span class="small_Text">v1.0</span>
+            </div>
+
+            <ul class="right_Nav">
+                <li><a href="../../Components/avtar.html">Docs</a></li>
+                <li><a href="#">Use-case</li>
+          </ul>
+        </nav>
+
+
+        <!-- Sidebar , list of all the component -->
+        <div class="doc_Container">
+            <div class="sidebar">
+                <div class="list_Topic">
+                    <a href="../../Components/Avatar/avatar.html">Components</a>
+                </div>
+                <ul class="sub_Topic">
+                    <li>
+                        <a class="active" href="../../Components/Avatar/avatar.html">
+                            Avatar
+                        </a>   
+                    </li>
+                    <li>
+                        <a class="active" href="../Alert/alert.html">
+                            Alert
+                        </a>   
+                    </li>
+                    <li>
+                        <a class="active" href="../Badges/badges.html">
+                            Badges
+                        </a>   
+                </ul>
+            </div>
+        </div>
+
+
+        <!---Badges Component--->
+        <div class="doc_Content">
+            <div class="content_Title">
+                Badges
+            </div>
+            <div class="content_Subtitle">
+                Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge can be used to display numbers, online / offline status, depending on where they are used.
+            </div>  
+
+        <!---Profile Badges--->
+            <div class="content_Head">
+                Profile Badges
+            </div>
+            <div class="content_Subtitle">
+                Profile Badge is used to show the current status of a user.
+                <span class="highlighted">It can be used with 3 variants : online | offline | dnd</span>
+            </div>
+
+            <!----Badges with status--->
+            <div class="example_Div">
+                <div class="badge_Container">
+                    <img class="avatar sm " src="../../assests/Avatar1.jpg" />
+                    <span class="online"></span>
+                </div>
+                <div class="badge_Container">
+                    <img class="avatar md " src="../../assests/Avatar5.jpg" />
+                    <span class="offline"></span>
+                </div>
+                <div class="badge_Container">
+                    <img class="avatar lg"src="../../assests/Avatar6.jpg" />
+                    <span class="dnd"></span>
+                </div>
+            </div>
+            <div class="divider"></div>
+
+            <!----code for using badge on parent class and staus variant on child class --->
+
+            <div class="example-code">
+                <pre>
+                    <code class="html">                
+                &lt;div class="badge_Container" &gt;
+                    &lt;img class="avatar sm" src="../../assests/Avatar5.jpg" alt="avatar-1"&gt;
+                    &lt;span class="online"&gt;&lt;/span&gt;
+                &lt;/div&gt;
+
+                &lt;div class="badge_Container" &gt;
+                    &lt;img class="avatar md" src="./../assests/Avatar6.jpg" alt="avatar-1"&gt;
+                    &lt;span class="offline"&gt;&lt;/span&gt;
+                &lt;/div&gt;
+
+                &lt;div class="badge_Container" &gt;
+                    &lt;img class="avatar lg" src="./../assests/Avatarfa-stack-1x.jpg"&gt;
+                    &lt;span class="dnd"&gt;&lt;/span&gt;
+                &lt;/div&gt;
+                    </code></pre>
+            </div>
+            <div class="divider"></div>
+            
+            <!----Badges with number--->
+            <div class="content_Head">
+                Badges with number
+            </div>
+            <div class="content_Subtitle">
+                Number Badges are used to show number on avatar
+            </div>
+            <div class="example_Div">
+                <div class="badge_Container">
+                    <i class="material-icons">campaign</i>
+                    <span class="number">9</span>
+                </div>
+                <div class="badge_Container">
+                    <i class="material-icons">event_note</i>
+                    <span class="number">18</span>
+                </div>
+                <div class="badge_Container">
+                    <i class="material-icons">notifications_none</i>
+                    <span class="number">27</span>
+                </div>
+            </div>
+
+          <!----code for using badge on parent class and number variant on child class --->
+
+            <div class="example-code">
+                <pre>
+                    <code class="html">                 
+                 &lt;div class="badge_Container" &gt;
+                    &lt;i class="material-icons"&gt;campaign&lt;/i&gt;
+                        &lt;span class="number"&gt;27&lt;/span&gt;
+                &lt;/div&gt;       
+                &lt;div class="badge_Container" &gt;
+                    &lt;i class="material-icons"&gt;notifications_none&lt;/i&gt;
+                    &lt;span class="number"&gt;27&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="badge_Container" &gt;
+                    &lt;i class="material-icons"&gt;event_note&lt;/i&gt;
+                      &lt;span class="number"&gt;27&lt;/span&gt;
+                 &lt;/div&gt;
+                 </code></pre>
+            </div>
+            <div class="divider"></div>
+       </div>
+</body>
+</head>
+</html>
