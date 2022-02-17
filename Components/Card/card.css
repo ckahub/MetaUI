@@ -1,0 +1,79 @@
+@import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+
+
+.card_Container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.card_V{
+    height: max-content;
+    width: 20rem;
+    background-color: var(--off-white);
+    border-radius: 0.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding:2rem;
+    margin:2rem;
+    border: 0.125rem solid gray;
+    box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem gray; 
+
+}
+.card_H{
+    display: flex;
+    width: 40rem;
+    background-color: var(--off-white);
+    border-radius: 0.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding:2rem;
+    margin:2rem;
+    border: 0.125rem solid gray;
+    box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem gray; 
+
+}
+.card_Img_H{
+    display: flex;
+    border-radius: 00.25rem;
+    width:8rem;
+    height:80%;
+}
+.card_Img_V{
+    border-radius: 00.25rem;
+    width:100%;
+    height:auto;
+}
+.price_After{
+    font-weight: 400;
+    font-size: 1rem;
+    
+}
+.price_Before{
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.discount{
+    font-size: large;
+    color: var(--danger-color);
+}
+.card_Details{
+    margin: 1rem;    
+    font-size: 1.5rem;
+    font-weight: 500;;  
+}
+
+.add2cart{
+    width: fit-content;
+    height: auto;
+    font-size: 1.2rem;
+    text-decoration: solid;
+    
+    background-color: var(--primary-color);
+    box-shadow: 0.25rem 0.25rem 0.25rem 0 gray;
+
+
+}

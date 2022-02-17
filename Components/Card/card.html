@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avatar Component</title>
-    <link rel="stylesheet" href="avatar.css" />
+    <link rel="stylesheet" href="card.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
 </head>
 <body>
@@ -81,24 +81,92 @@
 
     <div class="doc_Content">
         <div class="content_Title">
-        Avatar
+        Card
         </div>
         <div class="content_Subtitle">
-        Avatars are user profile pictures, usually found in circular or sqaure shapes. Avatars can be used for 'container' objects e-commerce,social media, and many other apps — to give them personalize approach tom user.
+        Cards are surfaces that display content and actions on a single topic.
+        They should be easy to scan for relevant and actionable information.
+        Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
+            
+        </div>
+        <div class="divider"></div>
+<!----vertical card written using card_Container & card_V--->
+        <div class="content_Title">
+            Vertical Card
+            </div>
+            <div class="example_Div">
+                <div class="card_Container">
+                    <div class="card_V">
+                        <div class="card_Img_V">
+                        <img class="card_Img_V" src="../../assests/Avatar1.jpg" alt="product_img"/>
+                        </div>
+                        <div class="card_Details">
+                            <h4>Men Jacket</h4>
+                            <small>by KM Fashion</small>
+                                <div class="card_Price">
+                                    <span class="price_After">
+                                        Rs.900
+                                    </span>
+                                    <span class="price_Before">
+                                        Rs.1800
+                                    </span>
+                                    <span class="discount">
+                                        (50% OFF)
+                                    </span>
+                                </div>
+                                <button class="add2cart">
+                                    <i class="material-icons">
+                                        shopping_cart
+                                    </i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        <div class="divider"></div>
+
+<!----Horizontal Card using class card_H----->
+        <div class="content_Title">
+            Horizontal Card
+        </div>
+        <div class="example_Div">
+            <div class="card_Container">
+                <div class="card_H">
+                    <div class="card_Img_H">
+                        <img class="card_Img_H" src="../../assests/Avatar1.jpg" alt="product_img"/>
+                    </div>
+                    <div class="card_Details">
+                        <h4>Men Jacket</h4>
+                        <small>by KM Fashion</small>
+                            <div class="card_Price">
+                                <span class="price_After">
+                                    Rs.900
+                                </span>
+                                <span class="price_Before">
+                                    Rs.1800
+                                </span>
+                                <span class="discount">
+                                    (50% OFF)
+                                </span>
+                            </div>
+                            <button class="add2cart">
+                                <i class="material-icons">
+                                    shopping_cart
+                                </i>
+                                <span>ADD TO CART</span>
+                            </button>
+                    </div>                    
+                </div>
+            </div>
         </div>
         <div class="divider"></div>
 
-        <!-- PROFILE AVATAR -->
+        
 
-        <div class="content_Head">
-        Profile Avatar
-        </div>
-        <div class="content_Subtitle">
-        Profile Avatars can be created using the class 'avatar', inside the <code>img</code> tag.
-        </div>
-        <div class="example_Div">
-            <img class="avatar" src="../../assests/Avatar0.jpg" alt="avatar0">
-            <img class="avatar" src="../../assests/Avatar1.jpg" alt="avatar1">
-            <img class="avatar" src="../../assests/Avatar5.jpg" alt="Avatar5">
-            <img class="avatar" src="https://i.pravatar.cc/300" alt="Avatar using url" />
-        </div>
+            
+         
+    </div>
+</body>
+</head>
+</html>
