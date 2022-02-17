@@ -22,6 +22,11 @@
     box-shadow: 0.25rem 0.25rem 0.5rem 0.25rem gray; 
 
 }
+.card_Img_V{
+    border-radius: 00.25rem;
+    width:100%;
+    height:auto;
+}
 .card_H{
     display: flex;
     width: 40rem;
@@ -40,11 +45,26 @@
     width:8rem;
     height:80%;
 }
-.card_Img_V{
-    border-radius: 00.25rem;
-    width:100%;
-    height:auto;
+
+.card_Badge{
+    position: absolute;
+    top:4.5rem;
+    background-color: var(--danger-color);
+    color: var(--off-white);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    transition: all .2s ease-in-out;
+    
 }
+
+.card_Dismiss{
+    position: absolute;
+    top: 2.5rem;
+    right:2.5rem;
+    padding:1.5rem;
+    color: transparent;
+}
+
 .price_After{
     font-weight: 400;
     font-size: 1rem;
