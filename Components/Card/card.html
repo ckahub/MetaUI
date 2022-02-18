@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Component</title>
+    <link rel="stylesheet" href="card.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
+</head>
+<body>
+    
+   
+    <div class="container">
+
+        <!-- Navbar , we can add mor in ul at right navbar -->
+
+        <nav>
+            <div class="left_Nav">
+                <a href="#">Meta</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right_Nav">
+                <li><a class="active" href="#">Docs</a></li>   
+            </ul>
+            <ul class="right_Nav">
+                <li><a class="active" href="#">Example</a></li>   
+            </ul>
+        </nav>
+
+
+
+        <!-- Sidebar , list of all the component -->
+        <div class="doc_Contianer">
+            <div class="sidebar">
+
+
+        <!-- Get Started List Start -->
+
+                <div class="list_Topic">
+                    <a href="../Avatar/avatar.html">Components</a>
+                </div>
+                <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="../Avatar/avatar.html">
+                        Avatar
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Alert/alert.html">
+                        Alert
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Badges/badges.html">
+                        Badges
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Card/card.html">
+                        Card
+                         </a>
+                    </li>                    
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Button/button.html">
+                        Button
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Image/image.html">
+                        Image
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Input/input.html">
+                        Input
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Modal/modal.html">
+                        Modal
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Rating/rating.html">
+                        Ratting
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Toast/toast.html">
+                        Toast
+                         </a>
+                    </li>
+                 </ul>
+            </div>
+    </div>
+
+
+    <div class="doc_Content">
+        <div class="content_Title">
+        Card
+    </div>
+        <div class="content_Subtitle">
+            Cards are surfaces that display content and actions on a single topic.
+            They should be easy to scan for relevant and actionable information.
+            Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.
+        </div>
+        <div class="divider"></div>
+
+    <!----vertical card written using card_Container & card_V--->
+        <div class="content_subtitle">
+            Vertical Card
+            </div>
+            <div class="example_Div">
+                <div class="card_Container">
+                    <div class="card_V">
+                        <div class="card_Img_V">
+                        <img class="card_Img_V" src="../../assests/Avatar1.jpg" alt="product_img"/>
+                        </div>
+                        <div class="card_Details">
+                            <h4>Men Jacket</h4>
+                            <small>by KM Fashion</small>
+                                <div class="card_Price">
+                                    <span class="price_After">
+                                        Rs.900
+                                    </span>
+                                    <span class="price_Before">
+                                        Rs.1800
+                                    </span>
+                                    <span class="discount">
+                                        (50% OFF)
+                                    </span>
+                                </div>
+                                <button class="add2cart">
+                                    <i class="material-icons">
+                                        shopping_cart
+                                    </i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        <div class="divider"></div>
+
+<!----Horizontal Card using class card_H----->
+        <div class="content_subtitle">
+            Horizontal Card
+        </div>
+        <div class="example_Div">
+            <div class="card_Container">
+                <div class="card_H">
+                    <div class="card_Img_H">
+                        <img class="card_Img_H" src="../../assests/Avatar1.jpg" alt="product_img"/>
+                    </div>
+                    <div class="card_Details">
+                        <h4>Men Jacket</h4>
+                        <small>by KM Fashion</small>
+                            <div class="card_Price">
+                                <span class="price_After">
+                                    Rs.900
+                                </span>
+                                <span class="price_Before">
+                                    Rs.1800
+                                </span>
+                                <span class="discount">
+                                    (50% OFF)
+                                </span>
+                            </div>
+                            <button class="add2cart">
+                                <i class="material-icons">
+                                    shopping_cart
+                                </i>
+                                <span>ADD TO CART</span>
+                            </button>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+<!-----Card with badges---->>
+        <div class="content_subtitle">
+            Card with badges
+            </div>
+            <div class="example_Div">
+                <div class="card_Container">
+                    <div class="card_V">
+                        <div class="card_Img_V">
+                        <img class="card_Img_V" src="../../assests/Avatar1.jpg" alt="product_img"/>
+                        </div>
+                        <div class="card_Badge">NEW</div>
+                        <div class="card_Details">
+                            <h4>Men Jacket</h4>
+                            <small>by KM Fashion</small>
+                                <div class="card_Price">
+                                    <span class="price_After">
+                                        Rs.900
+                                    </span>
+                                    <span class="price_Before">
+                                        Rs.1800
+                                    </span>
+                                    <span class="discount">
+                                        (50% OFF)
+                                    </span>
+                                </div>
+                                <button class="add2cart">
+                                    <i class="material-icons">
+                                        shopping_cart
+                                    </i>
+                                    <span>ADD TO CART</span>
+                                </button>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        <div class="divider"></div>
+
+    <!---Cards with dismiss--->
+
+    <div class="content_subtitle">
+        Card with dismiss
+        </div>
+        <div class="example_Div">
+            <div class="card_Container">
+                <div class="card_V">
+                    <div class="card_Img_V">
+                    <img class="card_Img_V" src="../../assests/Avatar1.jpg" alt="product_img"/>
+                    </div>
+                    <div class="card_Dismiss">
+                        <a href="">
+                        <i class="material-icons">
+                            close
+                        </i>
+                        </a>
+                    </div>
+                    <div class="card_Details">
+                        <h4>Men Jacket</h4>
+                        <small>by KM Fashion</small>
+                            <div class="card_Price">
+                                <span class="price_After">
+                                    Rs.900
+                                </span>
+                                <span class="price_Before">
+                                    Rs.1800
+                                </span>
+                                <span class="discount">
+                                    (50% OFF)
+                                </span>
+                            </div>
+                            <button class="add2cart">
+                                <i class="material-icons">
+                                    shopping_cart
+                                </i>
+                                <span>ADD TO CART</span>
+                            </button>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    <div class="divider"></div>
+
+<!---Card with Text Overlay---->>
+
+
+    <div class="content_subtitle">
+        Card with badges
+        </div>
+        <div class="example_Div">
+            <div class="card_Container">
+                <div class="card_V">
+                    <div class="card_Img_V">
+                    <img class="card_Img_V" src="../../assests/Avatar1.jpg" alt="product_img"/>
+                    </div>                    
+                    <div class="card_Details">
+                        <h4>Men Jacket</h4>
+                        <small>by KM Fashion</small>
+                            <div class="card_Price">
+                                <span class="price_After">
+                                    Rs.900
+                                </span>
+                                <span class="price_Before">
+                                    Rs.1800
+                                </span>
+                                <span class="discount">
+                                    (50% OFF)
+                                </span>
+                            </div>
+                            <button class="add2cart">
+                                <i class="material-icons">
+                                    shopping_cart
+                                </i>
+                                <span>ADD TO CART</span>
+                            </button>
+                    </div>                    
+                </div>
+                <div class="card_Status">
+                    <p class="card_Status_Content">Out of Stock</p>
+                </div>
+            </div>
+        </div>
+    <div class="divider"></div>
+
+
+
+
+
+            
+         
+    </div>
+</body>
+</head>
+</html>
