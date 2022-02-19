@@ -1,0 +1,110 @@
+@import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+
+.btn{
+    font-weight: 500;
+    background: var(--default-color);
+    color: white;
+    width: max-content;
+    padding: .8rem 1rem ;
+    margin-right:1rem;
+    border-radius: 0.1rem;
+    border: none;    
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btn_Primary{
+    background-color : var(--primary-color);
+    color :var(--off-white);
+}
+.btn_Primary:hover{
+    background-color: var(--primary-hover);
+}
+
+.btn_Secondary{
+    background-color: var(--warning-color);
+    color: var(--off-white);
+}
+.btn_Secondary:hover{
+    background-color: var(--warning-hover);
+    color: var(--off-white);   
+}
+.btn_Error{
+    background-color: var(--danger-color);
+    color :var(--off-white);
+}
+.btn_Error:hover{
+    background-color: var(--danger-hover);
+}
+.btn_Success{
+    background-color: var(--success-color);
+    color :var(--off-white);
+}
+.btn_Success:hover{
+    background-color: var(--success-hover);
+}
+
+
+/* link button using outline button */
+
+.btn.outline_C{
+    background-color: white;
+    border: 0.25rem solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn.outline_C:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn.outline_A{
+    background-color: white;
+    border: 0.25rem solid var(--danger-color);
+    color: var(--danger-color);
+}
+
+.btn.outline_A:hover{
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.btn.outline_B{
+    background-color: white;
+    border: 0.25rem solid var(--success-color);
+    color: var(--success-color);
+}
+
+.btn.outline_B:hover{
+    background-color: var(--success-color);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+/* button icon */
+.btn_Icon{
+    background-color: var(--off-white);
+    border: 0.25rem solid var(--primary-color);
+    color: var(--primary-color);
+    display: flex;
+}
+.btn_Icon:hover{
+    background-color: var(--primary-color);
+    color: var(--off-white);
+}
+/* floating button */
+.btn_Floating{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    
+}
+.btn_Floating:hover{
+    background-color: var(--primary-hover);
+}
+
+
+
