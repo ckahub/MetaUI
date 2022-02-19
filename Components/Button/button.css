@@ -99,6 +99,7 @@ a{
 /* floating button */
 .btn_Floating{
     background-color: var(--primary-color);
+    border-radius: 50%;
     
 }
 .btn_Floating:hover{
