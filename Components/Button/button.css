@@ -97,8 +97,12 @@ a{
     color: var(--off-white);
 }
 /* floating button */
-btn_Floating{
-    background-color: var();
+.btn_Floating{
+    background-color: var(--primary-color);
+    
+}
+.btn_Floating:hover{
+    background-color: var(--primary-hover);
 }
 
 
