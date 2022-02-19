@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Component</title>
+    <link rel="stylesheet" href="button.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
+</head>
+<body>
+    
+   
+    <div class="container">
+
+        <!-- Navbar , we can add mor in ul at right navbar -->
+
+        <nav>
+            <div class="left_Nav">
+                <a href="#">Meta</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right_Nav">
+                <li><a class="active" href="#">Docs</a></li>   
+                <li><a class="active" href="#">Example</a></li>   
+            </ul>
+        </nav>
+
+
+
+        <!-- Sidebar , list of all the component -->
+        <div class="doc_Contianer">
+            <div class="sidebar">
+
+
+        <!-- Get Started List Start -->
+
+                <div class="list_Topic">
+                    <a href="../Avatar/avatar.html">Components</a>
+                </div>
+                <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="../Avatar/avatar.html">
+                        Avatar
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Alert/alert.html">
+                        Alert
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Badges/badges.html">
+                        Badges
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Card/card.html">
+                        Card
+                         </a>
+                    </li>                    
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Button/button.html">
+                        Button
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Image/image.html">
+                        Image
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Input/input.html">
+                        Input
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Modal/modal.html">
+                        Modal
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Rating/rating.html">
+                        Ratting
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Toast/toast.html">
+                        Toast
+                         </a>
+                    </li>
+                 </ul>
+            </div>
+    </div>
+
+
+    <div class="doc_Content">
+        <div class="content_Title">
+            Button
+    </div>
+        <div class="content_Subtitle">
+            Buttons are the soul of an interactive Web Application. 
+            Buttons allow users to take actions, and make choices, with a single tap.
+        </div>
+        <div class="divider"></div>
+
+    <!----contained button written using btn & btn_variant--->
+        <div class="content_Head">
+            Solid Button
+        </div>
+            <div class="content_Subtitle">
+                Contained buttons are high-emphasis, distinguished by their use of elevation and fill. 
+                They contain actions that are primary to your app.
+            </div>
+            <div class="example_Div">
+                <button class="btn">DEFAULT</button>
+                <button class="btn btn_Primary">PRIMARY</button>
+                <button class="btn btn_Secondary">Secondary</button>
+                <button class="btn btn_Error">ERROR</button>
+                <button class="btn btn_Success">SUCCESS</button>
+            </div>
+
+            <!---Using the 'btn' class followed by 'btn_Variant'-->
+            <div class="example_Code">
+                <pre>
+                    <code class="html">                  
+                        &lt;button class="btn"&gt;DEFAULT&lt;/button&gt;
+                        &lt;button class="btn btn_Primary"&gt;PRIMARY&lt;/button&gt;
+                        &lt;button class="btn btn_Secondary"&gt;SECONDARY&lt;/button&gt;
+                        &lt;button class="btn btn_Error"&gt;ERROR&lt;/button&gt;
+                        &lt;button class="btn btn_Success"&gt;SUCCESS&lt;/button&gt;
+                    </code>
+                </pre>
+            </div>
+            <div class="divider"></div>
+
+            <!-- LINK BUTTON SHOWING OUTLINE AS WELL-->
+            <div class="content_Head">
+                Link Button
+            </div>
+            <div class="content_Subtitle">
+                Want to attach a link action, at a button tap? Use Link Button
+            </div>
+            <div class="example_Div">
+                <button class="btn outline_C"><a href="../Avatar/avatar.html">AVATAR</a></button>
+                <button class="btn outline_A"><a href="../Alert/alert.html">ALERT</a></button>
+                <button class="btn outline_B"><a href="../Badges/badges.html">BADGES</a></button>                
+            </div>
+
+            <div class="example_Code">
+                <pre>
+                    <code class="html">
+                <!-- Using the 'btn' class followed by 'outline-variant' -->
+                &lt;button class="btn  outline_C"&gt;&lt;a href="../Avatar/avatar.html"&gt;AVATAR&lt;/button&gt;
+                &lt;button class="btn  outline_A"&gt;&lt;a href="../Alert/alert.html"ALERT&gt;&lt;/button&gt;
+                &lt;button class="btn  outline_B"&gt;&lt;a href="../Badges/badges.html"BADGES&gt;&lt;/button&gt;
+                    </code>
+                </pre>
+            </div>
+            <div class="divider"></div>
+
+            <!-- ICON BUTTON-->
+
+            <div class="content_Head">
+                Icon Button
+            </div>
+                <div class="content_Subtitle">
+                    The icon button component has different styles, each with its own semantic meaning.
+                    To use the button use .btn .btn-icon
+                </div>
+                <div class="example_Div">
+                     <button class="btn btn_Icon">
+                         <span class="material-icons">add_shopping_cart</span>
+                     Add to cart</button>
+                    <button class="btn btn_Icon">
+                        <span class="material-icons">delete_outline</span>
+                    Delete</button>          
+                </div>
+
+                 <!-- Code for Icon button -->
+
+                <div class="example_Code">
+                    <pre>
+                        <code class="html">
+                            &lt;button class="btn btn_Icon"&gt;
+                                &lt;span class="material-icons"&gt;add_shopping_cart&lt;/span&gt;
+                            Add to cart&lt;/button&gt;
+                           &lt;button class="btn btn_Icon"&gt;
+                               &lt;span class="material-icons"&gt;delete_outline&lt;/span&gt;
+                           Delete&lt;/button&gt;                      
+                        </code>
+                    </pre>
+                </div>
+                <div class="divider"></div>
+
+                <!---Floating Button---->>
+                <div class="content_Head">
+                    Floating Button
+                </div>
+                <div class="content_Subtitle">
+                    The button component has different styles, each with its own semantic meaning.
+                     To use the button using floating-btn.
+                </div>
+                <div class="example_Div">
+                     <button class="btn btn_Floating">
+                         <span class="material-icons">contact_phone</span>
+                     </button>
+                    <button class="btn btn_Floating">
+                        <span class="material-icons">comment</span>
+                    </button>          
+                </div>
+               
+                <!-- Code for Floating button -->
+                <div class="example_Code">
+                    <pre>
+                        <code class="html">
+                            &lt;button class="btn btn_Floating"&gt;
+                                &lt;span class="material-icons"&gt;contact_phone&lt;/span&gt;
+                            &lt;/button&gt;
+                           &lt;button class="btn btn_Floating"&gt;
+                               &lt;span class="material-icons"&gt;comment&lt;/span&gt;
+                           &lt;/button&gt;          
+                                                 
+                        </code>
+                    </pre>
+                </div>
+                <div class="divider"></div>
+
+               
+
+           
+
+    </div>
+</body>
+</head>
+</html>
+             

@@ -18,7 +18,7 @@ body{
 
 .doc_Content{
     min-width: 0;
-    margin: 0px auto;
+    margin: 0% 0% 0% 30% ;
     max-width: 800px;
     flex:1 1 0%;
     font-family:sans-serif;

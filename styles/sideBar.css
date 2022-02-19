@@ -4,11 +4,10 @@
 
 .sidebar{
     font-family: 'Supermercado One', cursive;
-    flex: 0 0 20%;
-    margin-right: 1rem;
-    /*background-color:skyblue;
-    /*width: fit-content;
-    height:max-content;  */
+    position:absolute;
+    width: 20%;
+    height: 100%;
+    background-color: #f0f8ff;
 }
 
 .list_Topic{
