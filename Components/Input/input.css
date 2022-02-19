@@ -1,0 +1,14 @@
+@import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+
+
+
+.input_Textbox{
+    padding: 0.5rem 1rem;
+    background-color: var(--off-white);
+    border: 0.1rem solid var(--primary-color);
+    border-radius: 0.5rem;
+    
+}
