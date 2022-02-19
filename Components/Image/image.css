@@ -1,0 +1,29 @@
+@import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+
+.responsive_IMG{
+    width: 100%; 
+    
+}
+
+.round_IMG{
+    border-radius: 50%;
+    margin: 0 0.8rem;
+}  
+
+.sm{
+    width: 4rem;
+    height: 4rem;
+}
+
+.md{
+    width: 6rem;
+    height: 6rem;
+}
+
+.lg{
+    width: 8rem;
+    height: 8rem;
+}

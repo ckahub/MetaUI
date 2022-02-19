@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Component</title>
+    <link rel="stylesheet" href="image.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
+</head>
+<body>
+    
+   
+    <div class="container">
+
+        <!-- Navbar , we can add mor in ul at right navbar -->
+
+        <nav>
+            <div class="left_Nav">
+                <a href="#">Meta</a>
+                <span class="small-text">v1.0</span>
+            </div>
+            <ul class="right_Nav">
+                <li><a class="active" href="#">Docs</a></li>   
+                <li><a class="active" href="#">Example</a></li>   
+            </ul>
+        </nav>
+
+
+
+        <!-- Sidebar , list of all the component -->
+        <div class="doc_Contianer">
+            <div class="sidebar">
+
+
+        <!-- Get Started List Start -->
+
+                <div class="list_Topic">
+                    <a href="../Avatar/avatar.html">Components</a>
+                </div>
+                <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="../Avatar/avatar.html">
+                        Avatar
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Alert/alert.html">
+                        Alert
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Badges/badges.html">
+                        Badges
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Card/card.html">
+                        Card
+                         </a>
+                    </li>                    
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Button/button.html">
+                        Button
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Image/image.html">
+                        Image
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Input/input.html">
+                        Input
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Modal/modal.html">
+                        Modal
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Rating/rating.html">
+                        Ratting
+                         </a>
+                    </li>
+                 </ul>
+                 <ul class="sub_Topic">
+                    <li> 
+                        <a class="active" href="/Components/Toast/toast.html">
+                        Toast
+                         </a>
+                    </li>
+                 </ul>
+            </div>
+    </div>
+
+
+    <div class="doc_Content">
+        <div class="content_Title">
+            Image
+        </div>
+        <div class="content_Subtitle">
+            Image can be used to display large picture on the website.           
+        </div>
+        <div class="divider"></div>
+
+        <div class="content_Head">
+            Responsive Image
+        </div>
+            <div class="content_Subtitle">
+                Responsive Image Components are used to dsiplay Images on websites, which are screen responsive.
+                They expand upto the width of the container they are in.
+            </div>
+            <div class="example_Div">
+                <img class="responsive_IMG" src="https://i.pravatar.cc/" alt="responsive-img">
+            </div>
+
+            <div class="example_Code">
+                <pre>
+                    <code class="html">
+                <!-- Using the 'responsive_IMG' class on img tag -->
+                &lt;img class="responsive_IMG" src="https://i.pravatar.cc/" alt="responsive-img"&gt;
+                    </code>
+                </pre>
+            </div>
+            <div class="divider"></div>
+            
+ <!----round img written using round_Img followed by sm,md,lg variant--->
+        <div class="content_Head">
+            Round Image
+        </div>
+            <div class="content_Subtitle">
+                Round Images are the circular.
+            </div>
+            <div class="example_Div">
+                <img class="round_IMG sm" src="https://i.pravatar.cc/" alt="round_IMG">
+                <img class="round_IMG md" src="https://i.pravatar.cc/" alt="round_IMG">
+                <img class="round_IMG lg" src="https://i.pravatar.cc/" alt="round_IMG">
+            </div>
+
+            <div class="example_Code">
+                <pre>
+                    <code class="html">
+                <!-- code using the 'round_IMG' class on img tag -->
+                &lt;img class="round_IMG sm" src="https://i.pravatar.cc/" alt="round_IMG"&gt;
+                &lt;img class="round_IMG md" src="https://i.pravatar.cc/" alt="round_IMG"&gt;
+                &lt;img class="round_IMG lg" src="https://i.pravatar.cc/" alt="round_IMG"&gt;
+                    </code>
+                </pre>
+            </div>
+            <div class="divider"></div>
+        </div>
+        </div>
+
+    
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    </div>
+</body>
+</html>
