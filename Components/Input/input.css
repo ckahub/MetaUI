@@ -1,0 +1,26 @@
+@import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+
+
+
+.input{
+    padding: 0.5rem 1rem;
+    background-color: var(--off-white);
+    border: 0.1rem solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.input_Success{ 
+    border: 0.1rem solid var(--success-color);
+    color: var(--success-color);
+}
+.input_Warn{   
+    border: 0.1rem solid var(--warning-color);
+    color: var(--warning-color);
+}
+.input_Error{  
+    border: 0.1rem solid var(--danger-color);
+    color: var(--danger-color);
+}
