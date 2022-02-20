@@ -2,32 +2,37 @@ body{
     width: 100%;
     min-height: 100vh;
     height: max-content;
-    font-family: sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .container{
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
     height: max-content;
-    margin:0 4rem 0 4rem;
+    margin:0;
 }
 nav{
-    padding: 2.5rem 1rem;
+    background-color: var(--default-color);
+    margin: 0;
+    padding: 1rem 1rem 0rem 0rem;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: strech;
-    font-family: 'Supermercado One', cursive;
+    box-shadow: 0rem 0.75rem 1rem #20a7e6be;
 }
 .left_Nav{
     font-size:2rem;
     font-weight: 900;
 }
+.left_Nav a:hover{
+    color: var(--active-color);
+}
 .left_Nav a{
-    color : rgb(48, 46, 46);
+    color : aliceblue;
     text-decoration: none;
 }
 .small_Text{
-    color :black;
+    color :var(--active-color);
     font-size: .8rem;
     font-weight: 400;
 }
@@ -44,12 +49,12 @@ nav{
 }
 .right_Nav a{
     font-weight: 800;
-    color: rgb(90, 90, 90);
+    color: aliceblue;
     text-decoration: none;
     cursor: pointer;
     font-size: .9rem;
    
 }
 .right_Nav a:hover{
-    color: cornflowerblue;
+    color: var(--active-color);
 }

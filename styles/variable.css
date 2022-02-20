@@ -7,15 +7,15 @@
                 
 :root{              
 
-    --primary-color : #6366F1;
-    --default-color : #172B4D;
-    --secondary-color : #F3F4F6;
-    --danger-color : #F44336;
-    --success-color :#4CAF50;
-    --warning-color : #FF9800;
-    --active-color : #1EA7FD;
+    --primary-color : #327ddf8e;
+    --default-color : #172b4df3;
+    --secondary-color : #f3f4f6d3;
+    --danger-color : #f4433694;
+    --success-color :#4caf4f9d;
+    --warning-color : #ff9900a4;
+    --active-color : #1ea8fdee;
     --off-white : #F6F9FC;
-    --dnd-color :#686767;
+    --dnd-color :#686767ea;
 
     --primary-hover : #4F46E5;
     --secondary-hover: #E5E7EB;
