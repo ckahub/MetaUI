@@ -1,0 +1,43 @@
+@import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+
+.toast {
+    background: var(--off-white);
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem;
+    width: 30rem;
+    padding: 1.5rem;
+    
+}
+.toast_head {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--dnd-color);
+    margin-bottom: 1rem;
+}
+.toast_Cross {
+    border: none;
+    height: 2rem;
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: -1rem;
+    width: 2rem;
+    cursor: pointer;
+}
+.toast_Msg {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    line-height: 1.5em;
+    margin-top: 1rem;
+}
+.toast_Link {
+    color: var(--default-color);
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
