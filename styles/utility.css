@@ -3,8 +3,7 @@ body{
     width: 100%;
     min-height: 100vh;
     height: max-content;
-    font-family:'Times New Roman', Times, serif
-    
+    background-color: #20a7e63a;    
 }
 
 
@@ -18,10 +17,11 @@ body{
 
 .doc_Content{
     min-width: 0;
-    margin: 0% 0% 0% 30% ;
+    margin: 0% 0% 0% 30%;
     max-width: 800px;
     flex:1 1 0%;
     font-family:sans-serif;
+    padding: 2rem 0rem;
 
 }
 
@@ -35,7 +35,7 @@ body{
 
 .content_Subtitle{
     font-family:sans-serif;
-    line-height: 25px;
+    line-height: 1.5rem;
     color :black;   
     margin-bottom: 2rem;
     font-size: 1rem;
