@@ -1,15 +1,15 @@
 # MetaUI
-## Make you website Awesome with LIT UI . CSS framework to Rapidly build Modern Website without ever leaving your HTML. [Live Preview rocket](https://meta-library.netlify.app/)
+## Make you website Awesome with LIT UI . CSS framework to Rapidly build Modern Website without ever leaving your HTML. [Live Preview](https://meta-library.netlify.app/)
 ### Installation Guide
 ###### You can use this library by adding css stylesheet to your website. To get started add the following link element in your head element of the HTML file.
 > <link rel="stylesheet" href="/main.css">
 ### Components Library by Meta-UI
 >
 * [Avatar](https://meta-library.netlify.app/components/avatar/avatar)
-  *Profile Avatar
-  *Avatar Sizes
-  *Square Avatar
->
+  -Profile Avatar
+  -Avatar Sizes
+  -Square Avatar
+
 *[Alert](https://meta-library.netlify.app/components/alert/alert)
   *Simple Alert
   *Outline Alert
