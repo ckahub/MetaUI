@@ -6,12 +6,13 @@
 .btn{
     font-weight: 500;
     background: var(--default-color);
-    color: white;
+    color:var(--off-white);
     width: max-content;
     padding: .8rem 1rem ;
     margin-right:1rem;
-    border-radius: 0.1rem;
+    border-radius: 0.25rem;
     border: none;    
+    box-shadow: 0.25rem 0.25rem 0.15rem 0.15rem;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
@@ -57,8 +58,8 @@
 }
 
 .btn.outline_C:hover{
-    background-color: var(--primary-color);
-    color: white;
+    background-color: var(--default-color);
+    color: var(--off-white);
 }
 
 .btn.outline_A{

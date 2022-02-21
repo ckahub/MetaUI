@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('/main.css');
+
+
+.hero {
+    font-family: 'Supermercado One', cursive;
+    text-align: center;
+    color:var(--default-color);
+
+}
+
+.hero .hero-img {
+    display:flex;
+    margin: 2% 40% 2% ;
+    width: 18rem;
+    height: 18rem;
+}

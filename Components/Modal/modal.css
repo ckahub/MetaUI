@@ -26,10 +26,11 @@
     left: 0;
     overflow: auto;
     background-color: var(---modal-background-color);
+    color: var(--off-white);
 }
 
 .modal_Content {
-    background-color: var(--primary-color);
+    background-color: var(--default-color);
     margin: auto;
     padding: 3rem;
     border: 0.1rem solid var(--modal-text-color);

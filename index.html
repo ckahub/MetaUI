@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="/main.css">
     <link rel="stylesheet" href="/styles/navBar.css">
     <title>Meta UI</title>
@@ -21,18 +22,26 @@
             </ul>
         </nav>
 
-        <main>
-            <div class="head">
-                Design your project better and faster. 
-            </div>
-            <div class="subhead">
-                Meta-UI  is a CSS library, integrated with pre-defined styled classes and utilites for a quick creation of websites, with much focus on Functionality. 
-            </div>
-            <div class="btn">
-                <a href="https://meta-library.netlify.app/components/avatar/avatar" class="btn btn-primary">Documentation</a>
-                <a href="https://github.com/ckahub/MetaUI/main.css"  class="btn.outline_C">Installation</a>
-            </div>
-        </main>
-    </div>
+        <div class="hero">
+            <img class="hero-img" src="/assests/udraw.svg"/>
+            <h1 class="content_SubTitle"> Design your project faster and better with
+                <span class="content_Title"> Meta-UI</span>
+            </h1>
+            <button class="btn_Primary btn">
+                <a href="https://meta-library.netlify.app/components/avatar/avatar">
+                    Docs
+                </a>
+            </button>
+            <button class="btn outline_C">Installation</button>
+                <div class="modal">
+                    <div class="modal_Content">
+                        <p>
+                             &lt;link rel="stylesheet" href="/main.css"&gt;
+                        </p>
+                        <span class="close material-icons">close</span>
+                    </div>            
+                </div>
+        </div>
+    <script src="index.js"></script>
 </body>
 </html>
