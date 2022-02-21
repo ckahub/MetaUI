@@ -6,43 +6,43 @@
 ### Components Library by Meta-UI
 >
 * [Avatar](https://meta-library.netlify.app/components/avatar/avatar)
-  1.Profile Avatar
-  2.Avatar Sizes
-  3.Square Avatar
-*[Alert](https://meta-library.netlify.app/components/alert/alert)
-  *Simple Alert
-  *Outline Alert
-  *Alert With Icons
+  * Profile Avatar
+  * Avatar Sizes
+  * Square Avatar
+* [Alert](https://meta-library.netlify.app/components/alert/alert)
+  * Simple Alert
+  * Outline Alert
+  * Alert With Icons
 >
-*[Card](https://meta-library.netlify.app/components/card/card)
-    *Vertical Card
-    *Horizontal Card
-    *Card with badges
-    *Card with dismiss
-    *Card with Text Overlay
+* [Card](https://meta-library.netlify.app/components/card/card)
+    * Vertical Card
+    * Horizontal Card
+    * Card with badges
+    * Card with dismiss
+    * Card with Text Overlay
  >
- *Button
-   *Solid Button
-   *Link Button
-   *Icon Button
-   *Floating Button
+ * Button
+   * Solid Button
+   * Link Button
+   * Icon Button
+   * Floating Button
 >
- *Image
-   *Responsive Image
-   *Round Image
+ * Image
+   * Responsive Image
+   * Round Image
 >
- *Input
-   *Text Box
-   *Validation
+ * Input
+   * Text Box
+   * Validation
 >
- *Modal
-   *Live Demo
+ * Modal
+   * Live Demo
 >
-  *Rating
-    *Simple Rating
+  * Rating
+    * Simple Rating
  >
-  *Toast
-    *Notification Toast
+  * Toast
+    * Notification Toast
  ## Thankyou
  >Glad to see you at [Meta-UI](https://meta-library.netlify.app/)
 
