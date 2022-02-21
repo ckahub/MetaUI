@@ -6,10 +6,10 @@
 ### Components Library by Meta-UI
 >
 * [Avatar](https://meta-library.netlify.app/components/avatar/avatar)
-  -Profile Avatar
-  -Avatar Sizes
-  -Square Avatar
-
+  *Profile Avatar
+  *Avatar Sizes
+  *Square Avatar
+>
 *[Alert](https://meta-library.netlify.app/components/alert/alert)
   *Simple Alert
   *Outline Alert
