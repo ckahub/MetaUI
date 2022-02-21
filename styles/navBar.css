@@ -38,7 +38,7 @@ nav{
 }
 .right_Nav{
     display: flex;
-   margin-left: auto;
+    margin-left: auto;
     justify-content: space-evenly;
     align-items: none;
 
