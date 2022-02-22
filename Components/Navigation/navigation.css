@@ -1,0 +1,36 @@
+@import url('../../styles/utility.css');
+@import url('../../styles/navBar.css');
+@import url('../../styles/sideBar.css');
+@import url('../../styles/variable.css');
+
+.navigation{
+    background-color: transparent;
+    border-style:groove;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+ .left_Brand{
+    border: 1rem 1rem 1rem 1rem var(--default-color);    
+    border-radius: 2rem;
+    padding: 1rem 1rem 2rem 2rem;
+    width: 80%;
+    display: flex;
+    justify-content:first baseline;
+    align-items: strech;
+    /* box-shadow: 0rem 0.75rem 1rem var(--off-white); */
+}
+a{
+    text-decoration: none;
+}
+
+nav .right_Brand{
+        display: flex;
+        margin-left: auto;
+        justify-content:space-evenly;
+        text-indent: 1rem;
+        align-items: none;
+        margin:  1rem;
+        list-style: none;
+
+}

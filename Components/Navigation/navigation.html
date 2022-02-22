@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Component</title>
-    <link rel="stylesheet" href="modal.css" />
+    <title>Navigation Component</title>
+    <link rel="stylesheet" href="navigation.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/ocean.min.css">
 </head>
@@ -119,48 +119,104 @@
             </div>
     </div>
 
-
+<!--Simple navigation using ---->
     <div class="doc_Content">
         <div class="content_Title">
-            Modal
+            Navigation
         </div>
+        
         <div class="content_Subtitle">
-            A modal is a dialog box/popup window that is displayed on top of the current page: Open Modal.           
+            Navigation can be used to give the user facility to navigate between different pages.           
         </div> 
         <div class="divider"></div>   
         <div class="content_Subtitle">
-            Live Demo
+            Simple Navigation
         </div>
             <div class="example_Div">
-                <button class="btn">Open Modal</button>
-                <div class="modal">
-                    <div class="modal_Content">
-                        <p>This is a simple Modal..</p>
-                        <span class="close material-icons">close</span>
+                <nav class="navigation">
+                    <div class="left_Brand">
+                        <a href="#">Brand</a>
+                        <span class="small_Text">1.0</span>
                     </div>
+                    <ul class="right_Brand">
+                        <li><a class="active" href="#">Home</a></li>   
+                        <li><a class="active" href="#">Products</a></li>   
+                    </ul>
+                </nav>
+            </div>
+       
+
+<!-------Code for simple navigation----------->       
+        <div class="example_Code">
+            <pre>
+                <code class="html">
+                    &lt;nav class="navigation"&gt;
+                    &lt;div class="left_Brand"&gt;
+                            &lt;a href="#"&gt;Brand&lt;/a&gt;
+                            &lt;span class="small_Text"&gt;1.0&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;ul class="right_Brand"&gt;
+                            &lt;li&gt;&lt;a class="active" href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;   
+                            &lt;li&gt;&lt;a class="active" href="#"&gt;Products&lt;/a&gt;&lt;/li&gt;   
+                        &lt;/ul&gt;
+                    &lt;/nav&gt;
+                </code>
+            </pre>
+        </code>       
+        <div class="divider"></div>
+          
+        <div class="content_Subtitle">
+             Navigation with icons
+         </div>
+            <div class="example_Div">
+                <nav class="navigation">
+                    <div class="left_Brand">
+                        <a href="#">Brand</a>
+                        <span class="small_Text">1.0</span>
+                    </div>
+                    <ul class="right_Brand">
+                        <li><a class="active" href="#">                           
+                        </a></li>
+                        <li><a class="active" href="#">
+                            <span class="material-icons">shopping_cart</span>
+                        </a></li>   
+                        <li><a class="active" href="#">
+                            <span class="material-icons">
+                            favorite_border
+                            </span>
+                        </a></li>   
+                    </ul>
+                </nav>
             </div>
 
-        <!---Modal class is created using class modal and javascript file---->
-
-
+<!-------Code for navigation with icons----------->       
             <div class="example_Code">
                 <pre>
                     <code class="html">
-                <!-- code for modal using classes modal and btn -->
-                        &lt;button class="btn"&gt;Open Modal&lt;/button&gt;
-                        &lt;div class="modal"&gt;
-                        &lt;div class="modal_Content"&gt;
-                        &lt;p&gt;This is a simple Modal.&lt;/p&gt;
-                        &lt;span class="close material-icons"&gt;close&lt;/span&gt;
-                        &lt;/div&gt;
-                    </code>
-                </pre>
-            </Div>
-            <div class="divider"></div>
-        </div>
-        <script src="modal.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script>
-    </body>
+                        &lt;nav class="navigation"&gt;
+                            &lt;div class="left_Brand"&gt;
+                                &lt;a href="#"&gt;Brand&lt;/a&gt;
+                                &lt;span class="small_Text"&gt;1.0&lt;/span&gt;
+                            &lt;/div&gt;
+                            &lt;ul class="right_Brand"&gt;
+                                &lt;li&gt;&lt;a class="active" href="#"&gt;                           
+                                &lt;/a&gt;&lt;/li&gt;
+                                &lt;li&gt;&lt;a class="active" href="#"&gt;
+                                    &lt;span class="material-icons"&gt;shopping_cart&lt;/span&gt;
+                                &lt;/a&gt;&lt;/li&gt;   
+                                &lt;li&gt;&lt;a class="active" href="#"&gt;
+                                    &lt;span class="material-icons"&gt;
+                                    favorite_border
+                                    &lt;/span&gt;
+                                &lt;/a&gt;&lt;/li&gt;   
+                            &lt;/ul&gt;
+                        &lt;/nav&gt;
+                    &lt;/code&gt;
+                &lt;/pre&gt;
+            &lt;/div&gt;
+        <div class="divider"></div>
+    </div>
+</body>
 </html>
-            
+
+   
